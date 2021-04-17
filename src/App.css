@@ -1,0 +1,102 @@
+body {
+  background: #000000;
+  color: #ffffff;
+  text-align: center;
+  padding: none;
+  display: flex;
+  align-items: center;
+  justify-content: center;
+}
+
+nav {
+  display: flex;
+  justify-content: space-around;
+  align-items: center;
+  min-height: 10vh;
+}
+
+.nav-links {
+  width: 50%;
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  list-style: none;
+}
+
+.aboutBtn {
+  border-radius: 0 0.625rem 0.625rem 0;
+}
+
+.tutorialsBtn {
+  border-radius: 0.625rem 0 0 0.625rem;
+}
+
+img {
+  width: 4.375rem;
+  height: 4.375rem;
+}
+
+button {
+  background: #202020;
+  color: #ffffff;
+  width: auto;
+  height: 3rem;
+  border: none;
+  outline: none;
+}
+
+button:hover {
+  background: #101010;
+  color: #0070f3
+}
+
+.grid {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  flex-wrap: wrap;
+  max-width: 50rem;
+  margin-top: 3rem;
+}
+
+.card {
+  margin: 1rem;
+  padding: 1.5rem;
+  text-align: left;
+  color: #ffffff;
+  text-decoration: none;
+  border: none;
+  border-radius: 1rem;
+  transition: color 0.15s ease, border-color 0.15s ease;
+  width: 15rem;
+  height: 15rem;
+  background: #202020;
+  outline: none;
+}
+
+.card:hover,
+.card:focus,
+.card:active {
+  color: #0070f3;
+}
+
+.card h3 {
+  margin: 0 0 1rem 0;
+  font-size: 1.5rem;
+}
+
+.card p {
+  margin: 0;
+  font-size: 1.25rem;
+  line-height: 1.5;
+}
+
+.description {
+  display: flex;
+  justify-content: left;
+  background: #808080;
+  border-radius: 1rem;
+  height: 20rem;
+  width: 40rem;
+  text-decoration: none;
+}
